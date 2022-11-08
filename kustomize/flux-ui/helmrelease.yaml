@@ -1,0 +1,15 @@
+# /flux/boot/traefik/helmrelease.yaml
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: flux-ui
+  namespace: flux-system
+spec:
+  chart:
+    spec:
+      chart: flux-ui
+      sourceRef:
+        kind: HelmRepository
+        name: flux-ui
+      # version: 9.2.7
+  interval: 1m0s
