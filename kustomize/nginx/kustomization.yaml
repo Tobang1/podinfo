@@ -8,4 +8,7 @@ helmCharts:
     releaseName: nginx
     valuesFile: values.yaml
     version: 13.1.6
+    valuesInline: 
+      networkPolicy:
+        enabled: true
 
