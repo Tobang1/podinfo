@@ -10,6 +10,6 @@ spec:
       chart: nginx
       sourceRef:
         kind: HelmRepository
-        name: nginx
+        name: bitnami
       version: 13.1.6
   interval: 1m0s
