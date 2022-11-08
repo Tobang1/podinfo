@@ -11,5 +11,5 @@ spec:
       sourceRef:
         kind: HelmRepository
         name: flux-ui
-      # version: 9.2.7
+      version: 0.1.0
   interval: 1m0s
