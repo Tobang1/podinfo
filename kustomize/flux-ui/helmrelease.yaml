@@ -12,5 +12,5 @@ spec:
         kind: HelmRepository
         name: ccowley
       version: 0.0.2
-      values: values.yaml
+      valuesFile: values.yaml
   interval: 1m0s
